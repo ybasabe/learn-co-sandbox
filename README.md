@@ -1,3 +1,4 @@
+alert("Hello, World")
 
 Hi! 👋
 
@@ -9,3 +10,13 @@ Saving varies by the type of work you are doing:
 -- *Git repositories that you clone into the Sandbox are NOT automatically saved.* In this case, you are responsible for committing and pushing your work to GitHub. 
 
 To learn more about the Sandbox, please visit http://help.learn.co/technical-support/learn-ide-in-browser/ide-in-browser-sandbox
+
+basket = ["apple1","apple2","apple3","apple4","apple5","apple6","apple7","apple8","apple9","apple10"]
+apples_in_basket = basket.seze
+ 
+apples_taken_out = 0
+
+loop do 
+if apples_taken_out < apples_in_basket
+puts "taking out # {basket[apples_taken_out]}"
+
